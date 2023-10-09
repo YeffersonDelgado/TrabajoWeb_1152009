@@ -1,4 +1,4 @@
-document.getElementById("bn-5").addEventListener("click", function() {
+document.getElementById("btn-1").addEventListener("click", function() {
     window.location.href = "../index.html"; 
 });
 
