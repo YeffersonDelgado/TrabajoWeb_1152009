@@ -1,6 +1,5 @@
 document.getElementById("boton6").addEventListener("click", function() {
-    // Coloca la URL de la otra vista o página web que deseas abrir en el siguiente enlace:
-    window.location.href = "../index.html"; // Reemplaza "otra-vista.html" con la URL deseada
+    window.location.href = "index.html"; 
 });
 
 document.getElementById("btn-10").addEventListener("click", function() {
