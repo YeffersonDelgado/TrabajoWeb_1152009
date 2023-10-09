@@ -6,6 +6,7 @@ body{
 }
 
 .contenedor {
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
@@ -18,13 +19,157 @@ body{
 
 
  .img{
-       max-width: 100px; 
-       max-height: 100px; 
-       text-align: center;
+      width: 150px;
+      height: auto;
 }
 
 p{
-    margin: 0;
-    padding: 0 0 20px;
-    text-align: center;
+    font-size: 19px;
 }
+
+
+
+button[type="submit"]{
+    
+        background-color: #114e77; 
+        color: #ffffff;
+        padding: 10px 20px; 
+        font-size: 16px; 
+        border: none;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        cursor: pointer; 
+    }
+    
+    button:hover {
+        background-color: #2980b9; 
+    }
+
+
+    .container{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+        padding: 70px 30px; 
+    }
+
+    .img1{
+        
+            max-width: 100px; 
+            margin-right: 20px; 
+        
+    }
+
+  
+   
+
+    .btn-1{
+        width: 200px;
+        background-color: #114e77; 
+        color: #ffffff;
+        padding: 10px 20px; 
+        font-size: 16px; 
+        border: none;
+        border-bottom-left-radius: 25px;
+        cursor: pointer; 
+    }
+
+    .btn-2{
+        width: 200px;
+        background-color: #114e77; 
+        color: #ffffff;
+        padding: 10px 20px; 
+        font-size: 16px; 
+        border: none;
+        border-top-right-radius: 25px;
+        cursor: pointer; 
+        margin-top: auto;
+    }
+
+    .cont{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    .imagen {
+        max-width: 100px; 
+        margin-right: 20px;
+        width: 100px;
+        height: auto;
+    }
+
+    #number{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .nummber {
+        text-align: center;
+    }
+
+
+    .calculadora {
+        justify-content: center;
+        width: 70px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .teclado {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px; /* Espacio entre botones */
+    }
+    
+    .columna {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        margin: 0;
+        
+    }
+    
+    .nn{
+        grid-template-columns: (1er,3);
+        width: 60px;
+        background-color: #114e77; 
+        color: #ffffff;
+        padding: 10px 20px; 
+        font-size: 16px; 
+        border: none;
+        border-bottom-left-radius: 25px;
+        border-top-right-radius: 25px;
+        cursor: pointer; 
+        margin: 0;
+        
+    }
+    
+    
+
+
+    @media (max-width: 768px) {
+        .btn-2 {
+            border-bottom-left-radius: 25px; 
+        }
+
+        .btn-1 {
+            border-top-right-radius: 25px;
+        }
+    }
+
+
+    
+
+
