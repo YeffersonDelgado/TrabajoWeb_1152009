@@ -3,16 +3,37 @@ function agregarNumero(numero) {
     pantalla.value += numero;
 }
 
+function agregarString() {
+    const pantalla = document.getElementById("pantalla");
+    pantalla.value += "#";
+}
+
+function agregarPunto() {
+    const pantalla = document.getElementById("pantalla");
+    pantalla.value += ".";
+}
+
 function borrarPantalla() {
     const pantalla = document.getElementById("pantalla");
     pantalla.value = "";
 }
 
-function limitarLongitud(input) {
-    const valor = input.value;
-    if (valor.length > 4) {
-        input.value = valor.slice(0, 4); // Limitar a 4 dígitos
-    }
-}
+document.getElementById("btn-10").addEventListener("click", function() {
+    window.location.href = "../index.html"; 
+});
+
+document.getElementById("btn-11").addEventListener("click", function() {
+    window.location.href = "resultado_retiro.html"; 
+});
+
+document.getElementById("boton-1").addEventListener("click", function() {
+    window.location.href = "resultado_cambio.html"; 
+});
+
+
+
+
+
+
 
 
